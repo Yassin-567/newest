@@ -1,0 +1,159 @@
+body{
+   
+    padding:0.625em 0.625em 0em 0.625em ;
+    margin: 0.25em 0.25em 0em 0.25em;
+    margin-top: 0.125em;
+    padding-top: 0.3125em;
+    background-color: #237347;
+  
+}
+
+
+
+
+header{
+    background-color: rgb(92, 161, 140);
+    position: fixed;
+    width: 98%;
+    left: 1%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+   z-index: 999;
+
+}
+
+
+.logo img {
+    height: 2.5em;
+    width: 3em;
+
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0 1.2em;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: rgb(5, 64, 141);
+}
+
+.nav a:hover  {
+    color: blueviolet;
+  
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 1.4em 0em 1.4em;
+    padding: 3.75em 1rem;
+
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.3 em;
+    height: fit-content;
+    margin-bottom: 1em;
+}
+
+.card {
+    width: 20em;
+    height: 16em;
+    color: antiquewhite;
+    border: 1px solid rgb(255, 255, 1);
+    border-radius: 0.625em;
+    overflow: hidden;
+    transition: 0.1s ease;
+    margin-top: 1.1em;
+    transition: 0.5s ease;
+    background-color: #00170b ;
+
+}
+
+.card p {
+    margin-top: 0.6em;
+    margin-bottom: 0.125em;
+    padding-left: 0.4em;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.card a {
+    position: absolute;
+    bottom: 14px;
+    left: 88%;
+    text-decoration: none;
+    color: aqua;
+    margin-right: 0.375em;
+    transition: 0.5s ease;
+}
+.card a:hover{
+    color: rgb(175, 126, 223);
+    font-size: 1.2em;
+}
+
+.card:hover {
+    width: 21em;
+    height: fit-content;
+}
+
+.orders {
+    background-color: rgb(5, 27, 27);
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+label p {
+    display: inline;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-right: 0.7em;
+
+}
+
+#ordertype {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 7em;
+}
+
+footer{ background-color: aqua;
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    z-index: 999;
+    height: 2.5em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+.aaa{
+    color: aliceblue;;
+}
